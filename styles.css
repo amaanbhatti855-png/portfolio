@@ -518,7 +518,7 @@ body.oled-theme {
   border: 1px solid var(--border-tactical);
   padding: 18px 20px;
   border-radius: var(--radius-sm);
-  margin-bottom: 32px;
+  margin-bottom: 0;
 }
 
 .meta-item {

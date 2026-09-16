@@ -284,8 +284,6 @@ function initKeyboardTacticalShortcuts() {
     if (e.key === 'c' || e.key === 'C') {
       const calcSec = document.getElementById('calculator');
       if (calcSec) calcSec.scrollIntoView({ behavior: 'smooth' });
-    } else if (e.key === 'g' || e.key === 'G') {
-      window.open('https://share.gemini.google/qMSeQm9MC1Xa', '_blank');
     } else if (e.key === 'p' || e.key === 'P') {
       const projSec = document.getElementById('projects');
       if (projSec) projSec.scrollIntoView({ behavior: 'smooth' });
